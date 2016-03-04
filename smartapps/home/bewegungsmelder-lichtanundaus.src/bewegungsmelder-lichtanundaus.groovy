@@ -59,5 +59,6 @@ def motionDetectedHandler(evt) {
 def motionVanishedHandler(evt) {
     log.debug "motionVanishedHandler called: $evt"
     theswitch.off()
+	/** Here we go, comment */
 }
 
